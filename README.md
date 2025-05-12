@@ -12,12 +12,14 @@
 ## Cara Menjalankan
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/rupaid.git
-   cd rupaid
+      git clone https://github.com/username/rupaid.git
+      cd rupaid
 2. Install dependensi:
-  pip install -r requirements.txt
-3. Jalankan aplikasi:
-  python Program_Identifikasi_MataUang.py
+   ```bash
+     pip install -r requirements.txt
+4. Jalankan aplikasi:
+   ```bash
+     python Program_Identifikasi_MataUang.py
 
 Dataset
 Dataset terdiri dari 120 citra uang Rupiah berbagai nominal. Gambar diambil dengan kamera di atas kertas HVS.
