@@ -1,28 +1,10 @@
 # RupaID
 
-**RupaID** adalah aplikasi berbasis Python yang digunakan untuk mengidentifikasi nilai mata uang Rupiah dari citra gambar menggunakan metode ekstraksi ciri **Local Binary Pattern (LBP)** dan klasifikasi **Naïve Bayes**. Akurasi model diuji menggunakan teknik **K-Fold Cross Validation**.
+**RupaID** is a *Python-based application* used to identify the denomination of Indonesian Rupiah banknotes from image input using **Local Binary Pattern (LBP)** feature extraction and **Naïve Bayes** classification. The model's accuracy is evaluated using **K-Fold Cross Validation**.
 
-## Fitur
-- Identifikasi citra uang Rupiah berbagai nominal (1K hingga 100K)
-- Ekstraksi fitur menggunakan Local Binary Pattern (LBP)
-- Klasifikasi menggunakan Naïve Bayes
-- Evaluasi performa model menggunakan K-Fold Cross Validation
-- Antarmuka pengguna berbasis GUI (Tkinter)
-
-## Cara Menjalankan
-1. Clone repositori ini:
-   ```bash
-      git clone https://github.com/username/rupaid.git
-      cd rupaid
-2. Install dependensi:
-   ```bash
-     pip install -r requirements.txt
-4. Jalankan aplikasi:
-   ```bash
-     python Program_Identifikasi_MataUang.py
-
-Dataset
-Dataset terdiri dari 120 citra uang Rupiah berbagai nominal. Gambar diambil dengan kamera di atas kertas HVS.
-
-Lisensi
-Proyek ini menggunakan lisensi MIT.
+## Features
+- Identification of various *Rupiah banknote* denominations (1K to 100K)
+- Feature extraction using **Local Binary Pattern (LBP)**
+- Classification using **Naïve Bayes**
+- Model evaluation with **K-Fold Cross Validation**
+- GUI-based interface using **Tkinter**
