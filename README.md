@@ -30,7 +30,7 @@ To improve model generalization, each original image is augmented **5 times** us
 - Brightness adjustments
 - Addition of Gaussian noise
 
-After augmentation, the total dataset expands to **960 images** (120 original + 840 augmented), evenly distributed across all classes.
+After augmentation, the total dataset expands to **840 images** (120 original + 720 augmented), evenly distributed across all classes.
 
 ---
 
