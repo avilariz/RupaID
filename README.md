@@ -78,8 +78,9 @@ Developed as part of a Computer Vision project at **Politeknik Caltex Riau**.
    ```bash
    rupaid/
    │
-   ├── dataset/                         # Original images
-   ├── dataset_augmented/              # Augmented images
-   ├── Program_Identifikasi_MataUang.py
+   ├── DATASET_UANG/                         # Original images
+   ├── DATASET_UANG_AUGMENTED/              # Augmented images
+   ├── rupiah_model_gnb.pkl
+   ├── rupa-id.ipnyb
    ├── requirements.txt
    └── README.md
