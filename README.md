@@ -73,7 +73,7 @@ You can run the RupaID project in **two ways**, depending on your workflow:
    ```bash
    Includes: loading dataset, image augmentation, training the Naïve Bayes model, and testing prediction.
 
-###⚡ Option 2: Use Pretrained Model (rupiah_model_gnb.pkl)
+### ⚡ Option 2: Use Pretrained Model (rupiah_model_gnb.pkl)
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/avilariz/RupaID.git
