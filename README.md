@@ -54,18 +54,40 @@ Using 5-fold cross-validation, the model achieves an average classification accu
 
 ## 🚀 How to Run
 
+You can run the RupaID project in **two ways**, depending on your workflow:
+
+---
+
+### 🧠 Option 1: Run from `.ipynb` (Train + Predict)
+
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/rupaid.git
-   cd rupaid
+   git clone https://github.com/avilariz/RupaID.git
+   cd RupaID
 
-2. **Install dependencies:**
+2. **Open the notebook**
+   ```bash
+   Use Google Colab or Jupyter Notebook to open rupa-id.ipynb.
+
+3. **Run each cell**
+   ```bash
+   Includes: loading dataset, image augmentation, training the Naïve Bayes model, and testing prediction.
+
+###⚡ Option 2: Use Pretrained Model (rupiah_model_gnb.pkl)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/avilariz/RupaID.git
+   cd RupaID
+
+2. **Install required libraries:**
    ```bash
    pip install -r requirements.txt
 
-3. **Run the application:**
+3. **Skip the training section**
    ```bash
-   python Program_Identifikasi_MataUang.py
+   Jump directly to the section that loads the pretrained model (rupiah_model_gnb.pkl) and performs classification.
+
+This will directly load the pretrained Naïve Bayes model and launch the Rupiah classification interface.
 
 ---
 
